@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Desafios\NaoResolvidos\" />
-    <Folder Include="Desafios\Resolvidos\" />
   </ItemGroup>
 
 </Project>

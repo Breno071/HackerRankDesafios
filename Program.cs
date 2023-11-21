@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Desafios.Desafios.Resolvidos;
+
+namespace Desafios
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CompareTheTriplets.Init(args);
+
+        }
+    }
+}
