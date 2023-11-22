@@ -1,5 +1,4 @@
-﻿using Desafios.Desafios.NaoResolvidos;
-using Desafios.Desafios.Resolvidos;
+﻿using Desafios.Desafios.Resolvidos;
 
 namespace Desafios
 {
@@ -7,8 +6,7 @@ namespace Desafios
     {
         public static void Main(string[] args)
         {
-            AVeryBigSum.Init();
-
+            DiagonalDifference.Init();
         }
     }
 }

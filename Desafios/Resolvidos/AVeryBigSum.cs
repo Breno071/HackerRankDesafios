@@ -5,19 +5,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafios.Desafios.NaoResolvidos
+namespace Desafios.Desafios.Resolvidos
 {
     public class AVeryBigSum
     {
         public static void Init()
         {
-            TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+            TextWriter textWriter = new StreamWriter(Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
             int arCount = Convert.ToInt32(Console.ReadLine().Trim());
 
             List<long> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt64(arTemp)).ToList();
 
-            long result = AVeryBigSum.aVeryBigSum(ar);
+            long result = aVeryBigSum(ar);
             textWriter.WriteLine(result);
 
             textWriter.Flush();
