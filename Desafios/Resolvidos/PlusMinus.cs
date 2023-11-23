@@ -1,11 +1,10 @@
-﻿using Desafios.Desafios.Resolvidos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafios.Desafios.NaoResolvidos
+namespace Desafios.Desafios.Resolvidos
 {
     public class PlusMinus
     {
@@ -25,7 +24,7 @@ namespace Desafios.Desafios.NaoResolvidos
             double zeros = 0;
             foreach (var item in arr)
             {
-                if(item > 0) positivos += 1;
+                if (item > 0) positivos += 1;
                 if (item < 0) negativos += 1;
                 if (item == 0) zeros += 1;
             }
