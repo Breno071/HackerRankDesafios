@@ -6,7 +6,7 @@ namespace Desafios
     {
         public static void Main(string[] args)
         {
-            StairCase.Init();
+            MiniMaxSum.Init();
         }
     }
 }
