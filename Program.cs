@@ -6,7 +6,7 @@ namespace Desafios
     {
         public static void Main(string[] args)
         {
-            MiniMaxSum.Init();
+            BirthdayCakeCandles.Init();
         }
     }
 }
