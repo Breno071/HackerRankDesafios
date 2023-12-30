@@ -1,11 +1,10 @@
-﻿using Desafios.Desafios.Resolvidos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafios.Desafios.NaoResolvidos
+namespace Desafios.Desafios.Resolvidos
 {
     public class TimeConversion
     {
@@ -29,7 +28,7 @@ namespace Desafios.Desafios.NaoResolvidos
             {
                 return "00:00:00";
             }
-            
+
             DateTime.TryParse(s, out DateTime time);
             Console.WriteLine(time.TimeOfDay);
             return time.TimeOfDay.ToString();
