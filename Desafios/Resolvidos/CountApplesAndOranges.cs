@@ -1,11 +1,10 @@
-﻿using Desafios.Desafios.Resolvidos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafios.Desafios.NaoResolvidos
+namespace Desafios.Desafios.Resolvidos
 {
     public class CountApplesAndOranges
     {
@@ -38,7 +37,27 @@ namespace Desafios.Desafios.NaoResolvidos
 
         private static void countApplesAndOranges(int s, int t, int a, int b, List<int> apples, List<int> oranges)
         {
-            throw new NotImplementedException();
+            int applesInsideHouse = 0;
+            int orangesInsideHouse = 0;
+
+            for (int i = 0; i < apples.Count; i++)
+            {
+                if (a + apples[i] >= s && a + apples[i] <= t)
+                {
+                    applesInsideHouse++;
+                }
+            }
+
+            for (int i = 0; i < oranges.Count; i++)
+            {
+                if (b + oranges[i] >= s && b + oranges[i] <= t)
+                {
+                    orangesInsideHouse++;
+                }
+            }
+
+            Console.WriteLine(applesInsideHouse);
+            Console.WriteLine(orangesInsideHouse);
         }
     }
 }

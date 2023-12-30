@@ -1,5 +1,4 @@
-﻿using Desafios.Desafios.NaoResolvidos;
-using Desafios.Desafios.Resolvidos;
+﻿using Desafios.Desafios.Resolvidos;
 
 namespace Desafios
 {
