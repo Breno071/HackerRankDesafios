@@ -7,7 +7,7 @@ namespace Desafios
     {
         public static void Main(string[] args)
         {
-            FormingMagicSquare.Init();
+            BreakingRecords.Init();
         }
     }
 }
