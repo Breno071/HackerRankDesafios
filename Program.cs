@@ -7,7 +7,7 @@ namespace Desafios
     {
         public static void Main(string[] args)
         {
-            BreakingRecords.Init();
+            Birthday.Init();
         }
     }
 }

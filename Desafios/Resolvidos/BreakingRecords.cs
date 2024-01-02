@@ -1,11 +1,10 @@
-﻿using Desafios.Desafios.Resolvidos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafios.Desafios.NaoResolvidos
+namespace Desafios.Desafios.Resolvidos
 {
     public class BreakingRecords
     {
@@ -33,7 +32,7 @@ namespace Desafios.Desafios.NaoResolvidos
 
             for (int i = 0; i < scores.Count; i++)
             {
-                if(i != 0)
+                if (i != 0)
                 {
                     if (scores[i] > maximum)
                     {
